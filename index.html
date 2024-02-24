@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RF Bandwidth Calculator</title>
+</head>
+<body>
+<h2>Radio Frequency Bandwidth Calculator</h2>
+<form id="rfForm">
+  <div>
+    <label for="centerFreq">Center Frequency (MHz):</label>
+    <input type="number" id="centerFreq" required>
+  </div>
+  <div>
+    <label for="bandwidth">Bandwidth (MHz):</label>
+    <input type="number" id="bandwidth" required>
+  </div>
+  <button type="button" id="calculateBtn">Calculate</button>
+</form>
+<div id="result"></div>
+
+<script src="main.js"></script>
+</body>
+</html>
